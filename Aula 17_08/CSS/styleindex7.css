@@ -1,0 +1,16 @@
+body{
+ background-color: lightblue;
+}
+
+/* ambos vão receber o mesmo atributo */
+h2,p{
+    color: white;
+    font-size: 40px;
+    /* se o navegador não aceitar a primeira, ele busca as outras fontes */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* distância dos cantos, do superior e do inferior */
+    margin-top: 80px;
+}
+
+    

@@ -1,0 +1,26 @@
+body{
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+   color: red; 
+}
+
+/* com id */
+#paragrafo-diferente{
+    color: green;
+}
+
+#paragrafo-diferente2{
+    color: purple;
+    font-size: 30px;
+    font-family: fantasy;
+}

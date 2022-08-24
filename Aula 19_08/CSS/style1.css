@@ -1,0 +1,19 @@
+body{
+    /* colocando imagem de fundo - sempre direcionar certo */
+    background-image: url(../IMG/fundo.jpg);
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+    background: linear-gradient(blue, yellow);
+    font-size: 30px;
+}
+.jeniffer{
+text-align: center;
+}
+#caneca{
+color: black;
+background-color: green;
+}

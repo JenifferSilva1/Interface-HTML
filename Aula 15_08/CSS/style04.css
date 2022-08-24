@@ -1,0 +1,21 @@
+table,tr,th,td{
+
+   border: 3px solid;
+   border-collapse: collapse;
+   padding-right: 100px;
+}
+/* even = pinta as linhas pares, (ODD) pinta as ímpares */
+tr:nth-child(even) {
+    background-color: #d6eeee;
+}
+    
+
+td{
+    /* o que significa marcar o código com "/*?" */
+    /*padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 7px;
+    padding: auto;*/
+
+}

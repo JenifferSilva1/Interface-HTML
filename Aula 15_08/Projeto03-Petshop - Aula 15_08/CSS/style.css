@@ -1,0 +1,27 @@
+/* definindo o que o css vai estilizar */
+/* estilizando de uma maneira só, diferente da div da segunda table */
+table,tr,th,td{
+    /* borda */
+    border: 2px solid;
+    /* junta as bordas */
+    border-collapse: collapse;
+ }
+ 
+   /*estlizando apenas um elemento  */
+ #l2c1{
+    font-size: 25px;
+    color: #f13142;
+    background-color: blue;
+ }
+
+    /* estlizando a tabela que botei como class e dentro de uma div */
+    /* estilizar um por um elemento da div */
+    /* table e tr não pegam cor porque essas linhas são suprimidas pelos contornos de th e td */
+    .equipe04 th{
+        border: 6px solid pink;
+        border-radius: 10px;
+    }
+    .equipe04 td{
+        border: 6px solid yellow;
+        border-radius: 10px;
+    }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeniffer Silva">
+    <meta name="description" content="Quarto formulário com Checkboxes">
+    <meta name="keywords" content="Formulário, HTML, Forms">
+    <meta name="robots" content="Index, Follow">
+    <title>Quarto formulário com Checkboxes</title>
+    <link rel="shortcut-icon" href="">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>Quarto formulário com Checkboxes</h1>
+    <h2>Criando forms com Text fields</h2>
+    <p>A diferença entre radio e Checkboxes é que no radio só é possível marcar uma opção, enquanto no checkbox você pode assinalar várias</p>
+
+    <form action="">  
+        <!-- os values podem ser também ex carro1, carro2 e carro3 diferenciando marca ou algo do tipo -->
+        <!-- ID e name iguais não da interferência, pois o name é uma variável e o ID é uma forma de identificação -->
+        <!-- IDs não podem ter o mesmo nome porque se anulam-->
+        <!-- Value é o que vai pro banco de dados, o que eu quero guardar -->
+        <input type="checkbox" id="veículo1" name="veículo1" value="bicicleta" >
+        <label for="veículo1">Eu tenho uma bicicleta</label><br>
+        <input type="checkbox" id="veículo2" name="veículo2" value="carro" >
+        <label for="veículo2">Eu tenho um carro</label><br>
+        <input type="checkbox" id="veículo3" name="veículo3" value="moto" >
+        <label for="veículo3">Eu tenho uma moto</label><br>
+        <input type="submit" value="Enviar">
+    </form>  
+</body>
+</html>
